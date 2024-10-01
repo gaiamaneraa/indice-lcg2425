@@ -1,0 +1,37 @@
+
+
+*{
+    background-color: pink;
+}
+
+
+h1 {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+body {
+    text-align: center;
+    color:white
+}
+
+li {
+    list-style-type:disc;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    text-align: left;
+    
+}
+
+a {
+    text-decoration: none;
+    color: white
+}
+
+#indice:hover {
+    color:lightblue;
+}

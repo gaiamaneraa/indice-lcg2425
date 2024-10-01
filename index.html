@@ -2,20 +2,36 @@
 <!DOCTYPE html>
 <head>
     <title> Indice della sezione C2 di LCG - IA </title>
+   
+    <!-- collego il font playfair display -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+    </style>
+
+    <!-- collego il mio foglio di stile -->
+    <link rel="stylesheet" href="index.css">
 </head>
+
 <body>
-    <!-- vorrei rappresentare un indice con un collegamento ad altro pagine hmtl,
-     con un collegamento che cliccato mi porta ad un'altra pagina html-->
-    <h1> Indice di informatica applicata C2 </h1>
-    <p> 
-        <ul>
-            <li><a href="lezione1.html">Lezione1</a></li>
-            <li> Lezione2 </li>
-            <li> Lezione3 </li>
-            <li> Lezione4 </li>
-            <li> Lezione5 </li>
-            <li> Lezione6 </li>
-        </ul>
-     </p>
+    <!-- dall'indice collego le altre lezioni (altre pagine), di cui ho già creato le pagine-->
+   
+     <h1> <b>Indice di informatica applicata C2 </b> </h1>
+     <h3><i>questo indice serve a tenere traccia di quello che faremo al laboratorio di information design,</i>
+     </br> <i>tocca il fiocco per cominciare!</i></h3>
+
+     <div class="dropdown">
+        <button class="dropbtn">
+            <img src="fiocco.svg">
+        </button>
+
+        <div class="dropdown-content">
+          <a href="lezione1.html">Lezione 1</a>
+          <a href="lezione2.html">Lezione 2</a>
+          <a href="lezione3.html">Lezione 3</a>
+          <a href="lezione4.html">Lezione 4</a>
+          <a href="lezione5.html">Lezione 5</a>
+          <a href="lezione6.html">Lezione 6</a>
+        </div>
+      </div>
 </body>
 
